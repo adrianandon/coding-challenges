@@ -1,11 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <map>
-#include <string>
-#include <sstream>
 
-int ArrayChallenge(int arr[], int arrLength) {
+auto ArrayChallenge(int arr[], int arrLength) {
 
     //Special case, we have a single row
     if (arr[0] == 2)
