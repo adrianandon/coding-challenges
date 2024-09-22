@@ -75,5 +75,7 @@ int main()
 
 	auto compressedStr = compresser->compressString(uncompressedStr);
 
+	std::cout<<"Original string: "<<uncompressedStr<<" Compressed string: "<<compressedStr<<std::endl;
+
 	return 0;
 }
